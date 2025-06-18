@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIELDSET</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend><h3>YOUR INFORMATION</h3></legend>
+
+        <form action="mailto:shahisujit9@gmail.com" method="post" enctype="text/plain">
+
+            <label for="username">Username:-</label>
+            <input id="username" type="username" placeholder="Username" name="username" required>    
+            <br>
+            <br>        
+
+            <label for="email">Email:-</label>
+            <input id="email" type="email" placeholder="Type your email address" name="email" required>             
+            <br>
+            <br>
+
+            <label for="date">Date(A.D):</label>    
+            <input id="date" type="date" name="date">
+        
+    
+            <h3>Select your gender</h3>
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" value="male">
+        
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender" value="female">
+            <br>
+            <br>
+            
+            <h3>Select your hobbies</h3>
+            <label for="dancing">Dancing</label>
+            <input id="dancing" type="checkbox" name="habits" value="dance">
+
+            <label for="sing">Sing</label>
+            <input id="sing" type="checkbox" name="habits" value="sing">
+            <br>
+            <br>
+
+            <textarea rows="5" cols="30" name="meaasge" id="msg" placeholder="type message"></textarea>
+            <br>
+            
+
+        
+       
+            <button type="submit">Submit</button>
+        </form>
+
+    </fieldset>
+
+</body>
+</html>
