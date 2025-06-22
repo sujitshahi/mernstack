@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web design</title>
+ 
+    <link rel="stylesheet" href="web.css">
+
+    <style>
+
+        .bx>h1 {
+            color: red;
+        }
+
+        li:nth-child(odd) {
+            color: red;
+        }
+
+        span {
+            color: brown;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        p::before {
+            content: "Before Text";
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p::after {
+             content: "After Text";
+            font-weight: bold;
+            font-size: 40px;
+        }
+        p::first-letter {
+            color: red;
+        }
+
+        p:hover {
+            background-color: blue;
+        }
+
+        a:active {
+            color: red;
+        }
+        /* a:link {
+            color: yellow;
+        } */
+         p::first-line {
+            color: red;
+         }
+
+         input[type="text"] {
+            background-color: red;
+         }
+          input[type="email"]:focus {
+            outline: none;
+            color: blue;
+         }
+
+         form input[type="text"] {
+            color: red;
+         }
+
+
+
+        </style>
+
+
+</head>
+<body>
+
+    <form action="">
+        <input type="text">
+        <input type="email">
+    </form>
+    <input type="text">
+    <input type="email">
+    <br>
+    
+    <a href="https://www.youtube.com/">Youtube</a>
+
+    <div class="bx">
+        <h1>hello1</h1>
+        <div class="c-bx">
+            <h1>hello2</h1>
+        </div>
+        <h1>hello3</h1>
+    </div>
+
+
+    <ol>
+        <li>hello guys</li>
+        <li>hello guys</li>
+        <li>hello guys</li>
+        <li>hello guys</li>
+        <li>hello guys</li>
+    
+    </ol>
+
+    <p>Lorem ipsum <span>dolor</span> sit amet consectetur adipisicing elit. Impedit quae ad esse atque. Sapiente animi iusto laboriosam quo accusantium laudantium id molestiae tempore, sequi doloribus itaque quod incidunt? Reprehenderit, iusto.</p>
+
+    <p><div>
+
+</body>
+</html>
